@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.h2, h2 {
+    font-size: 2rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.float-left {
+    float: left!important;
+}
+
+.float-right {
+    float: right!important;
+}
+
+.table {
+    display: table;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: 1px solid darkgreen;
+}
+
+th,td {
+    padding: 4px 8px 4px 8px;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+table, td {
+    border: 1px solid gray;
+}
+
+.doSort {
+    margin-left: 4px;
+}
+
+.doJump, .doBack, .doAPI {
+    color: #004d99;
+}
+
+.doBack {
+    
+    margin-left: 4px;
+}
+
+.doSort:hover, .doJump:hover, .doBack:hover {
+    cursor: pointer;
+}
+
+.fa-angle-down.hidden {
+    color: green;
+}
+
