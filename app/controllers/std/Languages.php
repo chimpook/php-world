@@ -85,7 +85,7 @@ class Languages extends StdController
         $fields = $this->languageModel->getFields();
         $data = [
             'title' => 'Languages of the region: ' . $languages[0]->Region,
-            'back' => ['title' => 'Regions of the World', 'url' => '/'],
+            'back' => ['title' => 'Regions of the World', 'url' => ''],
             'apiUrl' => $this->getApiUrl(),
             'sort' => $sort,
             'dir' => $dir,
