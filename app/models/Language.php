@@ -10,9 +10,10 @@ class Language
     private $db;
 
     protected $fields = [
+        'Id'           => 'integer',
         'Region'       => 'string',
-        'CountryCode'   => 'number',
-        'CountryName'   => 'string',
+        'CountryCode'  => 'number',
+        'CountryName'  => 'string',
         'Language'     => 'string',
         'IsOfficial'   => 'string',
         'Percentage'   => 'number'

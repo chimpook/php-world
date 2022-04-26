@@ -11,6 +11,7 @@ class Region
     private $db;
 
     protected $fields = [
+        'Id'            => 'integer',
         'Continent'     => 'enum',
         'Region'        => 'string',
         'Countries'     => 'number',
