@@ -33,7 +33,9 @@ class Core
                 $this->mode = $url[0];
                 array_shift($url);
             }
-    
+        }
+
+        if (isset($url[0])) {
             if (file_exists('../app/controllers/' 
             . $this->mode . '/'
             . ucwords($url[0]) . '.php')) {

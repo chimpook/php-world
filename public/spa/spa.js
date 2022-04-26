@@ -5,7 +5,7 @@
  */
 let app = {
 
-    nw: new NWorld('http://localhost:8081/api/'),
+    nw: new NWorld('http://app1.phplab.local/api/'),
 
     /**
      * Load data to the module
