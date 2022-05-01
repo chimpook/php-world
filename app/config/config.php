@@ -3,7 +3,7 @@
 // Database connection parameters
 define('DB_HOST', 'mysql');
 define('DB_USER', 'root');
-define('DB_PASS', '!qaz@wsx');
+define('DB_PASS', 'ZonaSQLSQLSQL');
 define('DB_NAME', 'world');
 
 // App root
