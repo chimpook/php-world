@@ -10,7 +10,7 @@ define('DB_NAME', 'world');
 define('APPROOT', dirname(dirname(__FILE__)));
 
 // URL root
-define('URLROOT', 'http://app1.phplab.local/');
+define('URLROOT', '/');
 
 // Site name
 define('SITENAME', 'PHP-World');
