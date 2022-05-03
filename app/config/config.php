@@ -13,4 +13,4 @@ define('APPROOT', dirname(dirname(__FILE__)));
 define('URLROOT', 'http://app1.phplab.local/');
 
 // Site name
-define('SITENAME', 'PHP Laboratory application 1');
+define('SITENAME', 'PHP-World');
