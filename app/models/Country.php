@@ -10,7 +10,6 @@ class Country
     private $db;
 
     protected $fields = [
-        'Id'               => 'integer',
         'Region'           => 'string',
         'Code'             => 'string',
         'Name'             => 'string',
@@ -65,7 +64,7 @@ class Country
             left join CountryLanguage as cl on cl.CountryCode=c.Code
             left join City as ct on ct.CountryCode=c.Code
         where replace(c.Region, ' ', '') = :region
-        group by c.Code, c.Id
+        group by c.Code
         order by $sortString $dir
         ;
         ");
