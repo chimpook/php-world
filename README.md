@@ -1,2 +1,2 @@
-# phplab-app1
-PHP Laboratory application 1
+# php-world
+The World regions application coded with pure PHP
